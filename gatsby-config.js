@@ -2,9 +2,21 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  siteMetadata: {
-    title: `My Gatsby Site`,
-    siteUrl: `https://www.yourdomain.tld`,
+  flags: {
+    DEV_SSR: true,
   },
-  plugins: [],
-}
+  siteMetadata: {
+    title: `Mysa & Co`,
+    siteUrl: `https://mysaandco.com.au`,
+  },
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Amatic SC:700`],
+        display: 'block',
+      },
+    },
+    'gatsby-plugin-emotion',
+  ],
+};
