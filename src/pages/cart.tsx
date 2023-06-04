@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import axios from 'axios';
 import { css } from '@emotion/css'
@@ -290,7 +290,13 @@ function CartRow({ item, removeItem, updateItem }: { item: CartItem, removeItem:
 const CartPage = () => {
   const [{ items }, { updateItem, removeItem }] = useCart();
   const [loading, setLoading] = useState(false);
-  const [isError, setIsError] = useState(false)
+  const [isError, setIsError] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => { setIsClient(true) }, []);
+
+  if (!isClient) return null;
+
   const totalPrice = items.reduce((total, item) =>
     total + (findPrice(item.id).price?.unit_amount || 0) * item.qty, 0
   );
@@ -307,7 +313,7 @@ const CartPage = () => {
     });
   }
 
-  if (!items.length) return <div css={{
+  if (!items.length) return <Layout><div css={{
     textAlign: 'center',
     padding: '3rem',
     "@media screen and (min-width: 990px)": {
@@ -326,7 +332,7 @@ const CartPage = () => {
       textDecorationThickness: '0.1rem',
       transition: 'text-decoration-thickness ease 0.1s'
     }}>Continue shopping</Link>
-  </div >
+  </div ></Layout>
 
   return (
     <Layout>

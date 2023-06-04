@@ -426,8 +426,15 @@ const Nav = ({ isSticky = false }: { isSticky?: boolean }) => <nav css={{
     </ul>
 </nav>
 
-const HeaderIcons = ({ items }: { items: CartItem[] }) =>
-    <div css={{
+const HeaderIcons = () => {
+    const [isClient, setIsClient] = useState(false);
+    const [{ items }] = useCart();
+
+    useEffect(() => { setIsClient(true) }, []);
+
+    if (!isClient) return null;
+
+    return <div css={{
         display: 'flex',
         gridArea: 'icons',
         justifySelf: 'end'
@@ -479,11 +486,11 @@ const HeaderIcons = ({ items }: { items: CartItem[] }) =>
             </div>}
         </Link>
     </div>
+}
 
 function SectionHeader({ isHome }: { isHome: boolean }) {
     const [isMenuOpen, setMenuOpen] = useState(false);
     const [isSticky, setIsSticy] = useState(false);
-    const [{ items }] = useCart();
 
     useEffect(() => {
         window.addEventListener("scroll", (event) => {
@@ -525,7 +532,7 @@ function SectionHeader({ isHome }: { isHome: boolean }) {
                         <HeaderDrawer onSummaryClick={onSummaryClick} />
                         <Logo />
                         <Nav />
-                        <HeaderIcons items={items} />
+                        <HeaderIcons />
                     </header>
                 </div>
             </div>
@@ -567,7 +574,7 @@ function SectionHeader({ isHome }: { isHome: boolean }) {
                     <HeaderDrawer onSummaryClick={onSummaryClick} />
                     <Logo />
                     <Nav isSticky={isSticky} />
-                    <HeaderIcons items={items} />
+                    <HeaderIcons />
                 </header>
             </div>
             }
