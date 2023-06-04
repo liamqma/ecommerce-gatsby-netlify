@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from '../components/layout'
 import ItemList from '../components/item-list'
 import type { PageProps } from "gatsby"
+import FullBackgroundImage from '../components/full-background-image';
 
 const item = {
     name: 'Item Name',
@@ -11,8 +12,7 @@ const item = {
 
 
 function IndexPage({ location }: PageProps) {
-    const isHome = location.pathname === '/';
-    return <Layout isHome><ItemList items={[item, item, item, item, item, item, item, item, item]} /></Layout>
+    return <FullBackgroundImage isUnderMaintenance />
 }
 
 export default IndexPage;
