@@ -67,7 +67,7 @@ function CartRow({ item, removeItem, updateItem }: { item: CartItem, removeItem:
         width: '50rem',
       }
     }}>
-      <Link to={`/products/${product.id}`} css={{
+      <Link to={`/product/${product.id}`} css={{
         color: 'var(--color-1)',
         textDecoration: 'none',
         display: 'block',
