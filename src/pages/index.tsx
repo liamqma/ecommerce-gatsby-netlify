@@ -3,8 +3,8 @@ import '../styles/theme.css';
 import '../styles/index.css';
 import FullBackgroundImage from '../components/full-background-image'
 
-function MaintenancePage() {
+function IndexPage() {
     return <FullBackgroundImage isUnderMaintenance />
 }
 
-export default MaintenancePage;
+export default IndexPage;
