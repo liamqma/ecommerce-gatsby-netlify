@@ -184,7 +184,7 @@ function CartRow({ item, removeItem, updateItem }: { item: CartItem, removeItem:
             "::-webkit-outer-spin-button, ::-webkit-inner-spin-button": {
               WebkitAppearance: "none"
             }
-          }} type="number" name="updates[]" value={item.qty} min="0" aria-label="Quantity for eleven vessels 2" id="Quantity-1" data-index="1" />
+          }} type="number" name="updates[]" value={item.qty} min="0" aria-label="Quantity for eleven vessels 2" data-index="1" />
           <button onClick={() => updateItem({ ...item, qty: item.qty + 1 })} css={{
             boxShadow: 'inherit',
             backgroundColor: 'inherit',
