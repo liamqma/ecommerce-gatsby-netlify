@@ -1,12 +1,13 @@
 import React, { useState, useRef } from "react"
 import Swal from 'sweetalert2'
+import { navigate } from "gatsby"
 
 import Layout from '../components/layout';
 import { type Product } from '../data/products';
 import { useCart } from "../hooks/cart";
 
 function ProductTemplate({ pageContext }: { pageContext: { product: Product } }) {
-    const [, { addItem }] = useCart();
+    const [{ items }, { addItem }] = useCart();
     const imageWrapperRef = useRef<HTMLDivElement>(null);
     const imageRef = useRef<HTMLImageElement>(null);
     const [imageIndex, setImageIndex] = useState(0);
@@ -18,12 +19,21 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
     if (!price || !selectedPriceId) throw new Error("Price not found");
 
     const onAddToCartClick = () => {
-        Swal.fire({
-            title: `${product.name} has been added to your cart.`,
-            icon: 'success',
-            confirmButtonColor: '#a2a28a'
-        })
         addItem(selectedPriceId);
+        Swal.fire({
+            text: `${product.name} has been added to your cart.`,
+            icon: 'success',
+            confirmButtonColor: '#545454',
+            confirmButtonText: `VIEW MY CART (${items.length})`,
+            cancelButtonText: 'CONTINUE SHOPPING',
+            cancelButtonColor: '#a2a28a',
+            showCancelButton: true,
+            reverseButtons: true
+        }).then((result) => {
+            if (result.isConfirmed) {
+                navigate('/cart');
+            }
+        });
     }
 
     const onSelectPrice = (priceId: string) => {
