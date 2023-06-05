@@ -14,7 +14,7 @@ export type Product = {
 
 const p: Product[] = [
   {
-    id: 'prod_NKYo1Bq0U8odob',
+    id: 'prod_nkyo1bq0u8odob',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere nec magna eget aliquam. Fusce at volutpat ipsum. Curabitur placerat ornare quam, eget rhoncus est lobortis non. Phasellus eleifend velit nulla, ut interdum turpis lobortis.',
     images: [
@@ -27,7 +27,7 @@ const p: Product[] = [
     ],
   },
   {
-    id: 'prod_NHwdaXbjj6lgW5',
+    id: 'prod_nhwdaxbjj6lgw5',
     description:
       'We believe in creating pieces that are respectful to the environment they are celebrating. The Luna Bouquet features rustic blush tones of Australian native myrtle, creamy hues of natural rice flower, and the dreamy translucent petals of lunaria. ',
     images: [

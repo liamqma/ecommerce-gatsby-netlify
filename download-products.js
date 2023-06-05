@@ -23,7 +23,7 @@ async function main() {
 
   products.forEach((product) => {
     output.push({
-      id: product.id,
+      id: product.id.toLowerCase(),
       description: product.description,
       images: product.images,
       name: product.name,
