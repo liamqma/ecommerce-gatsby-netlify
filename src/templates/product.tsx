@@ -24,7 +24,7 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
             text: `${product.name} has been added to your cart.`,
             icon: 'success',
             confirmButtonColor: '#545454',
-            confirmButtonText: `VIEW MY CART (${items.length})`,
+            confirmButtonText: 'VIEW MY CART',
             cancelButtonText: 'CONTINUE SHOPPING',
             cancelButtonColor: '#a2a28a',
             showCancelButton: true,
