@@ -38,7 +38,7 @@ async function main() {
     });
   });
 
-  fs.writeFileSync('data.json', JSON.stringify(output));
+  fs.writeFileSync('raw-data.json', JSON.stringify(output));
 }
 
 main();
