@@ -14,12 +14,10 @@ export type Product = {
 
 const p: Product[] = [
   {
-    id: 'prod_nkyo1bq0u8odob',
+    id: 'nkyo1bq0u8odob',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere nec magna eget aliquam. Fusce at volutpat ipsum. Curabitur placerat ornare quam, eget rhoncus est lobortis non. Phasellus eleifend velit nulla, ut interdum turpis lobortis.',
-    images: [
-      'https://files.stripe.com/links/MDB8YWNjdF8xNGVaSVdCeDllN1J6U3lIfGZsX3Rlc3RfOXJUWFpKVUZyV2hJdGdub1NHek0xYWd400SzMdhS4Z',
-    ],
+    images: ['/static/1.jpg', '/static/2.jpg'],
     name: 'Flower Plant',
     prices: [
       { id: 'price_1MZtglBx9e7RzSyHvkmq5o0M', nickname: 'Small', unit_amount: 199 },
@@ -27,12 +25,10 @@ const p: Product[] = [
     ],
   },
   {
-    id: 'prod_nhwdaxbjj6lgw5',
+    id: 'nhwdaxbjj6lgw5',
     description:
       'We believe in creating pieces that are respectful to the environment they are celebrating. The Luna Bouquet features rustic blush tones of Australian native myrtle, creamy hues of natural rice flower, and the dreamy translucent petals of lunaria. ',
-    images: [
-      'https://files.stripe.com/links/MDB8YWNjdF8xNGVaSVdCeDllN1J6U3lIfGZsX3Rlc3RfYTNTVERidzg1ZzQzekhWMjFLVVJnTjkx00oChtqiWv',
-    ],
+    images: ['/static/2.jpg', '/static/1.jpg'],
     name: 'Everlasting Luna Bouquet',
     prices: [{ id: 'price_1MXMkEBx9e7RzSyHf1WhESI3', nickname: null, unit_amount: 99 }],
   },
