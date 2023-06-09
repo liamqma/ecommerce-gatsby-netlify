@@ -2,9 +2,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  flags: {
-    DEV_SSR: true,
-  },
   siteMetadata: {
     title: `Mysa & Co`,
     siteUrl: `https://mysaandco.com.au`,
@@ -15,6 +12,12 @@ module.exports = {
       options: {
         fonts: [`Amatic SC:700`],
         display: 'block',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `./src/images/favicon.png`,
       },
     },
     'gatsby-plugin-emotion',
