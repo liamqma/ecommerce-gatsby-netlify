@@ -20,6 +20,9 @@ module.exports = {
         icon: `./src/images/favicon.png`,
       },
     },
+    {
+      resolve: '@sentry/gatsby',
+    },
     'gatsby-plugin-emotion',
     'gatsby-plugin-netlify',
   ],
