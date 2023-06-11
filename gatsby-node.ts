@@ -23,6 +23,7 @@ exports.createPages = async function ({ actions }) {
       component: path.resolve(`./src/templates/collection.tsx`),
       context: {
         products: p,
+        name: collection.name,
       },
     });
   });

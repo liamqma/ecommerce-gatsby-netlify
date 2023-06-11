@@ -34,4 +34,4 @@ const ThankYouPage = () => {
 
 export default ThankYouPage
 
-export const Head = () => <title>Thank you</title>
+export const Head = () => <title>Thank you for your purchase</title>

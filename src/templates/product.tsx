@@ -5,6 +5,7 @@ import { navigate } from "gatsby"
 import Layout from '../components/layout';
 import { type Product } from '../data/products';
 import { useCart } from "../hooks/cart";
+import meta from '../data/meta'
 
 function ProductTemplate({ pageContext }: { pageContext: { product: Product } }) {
     const [{ items }, { addItem }] = useCart();
@@ -271,3 +272,7 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
 }
 
 export default ProductTemplate;
+
+export function Head({ pageContext }: { pageContext: { product: Product } }) {
+    return <title>{`Buy ${pageContext.product.name} | ${meta.title}`}</title>
+}

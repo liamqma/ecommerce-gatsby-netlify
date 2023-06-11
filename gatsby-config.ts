@@ -2,10 +2,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  siteMetadata: {
-    title: `Mysa & Co`,
-    siteUrl: `https://mysaandco.com.au`,
-  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-fonts`,
