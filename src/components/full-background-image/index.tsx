@@ -1,4 +1,5 @@
 import React from "react"
+import image from './image.jpg';
 import { css, keyframes } from '@emotion/css'
 
 const fadeIn = keyframes({
@@ -8,7 +9,7 @@ const fadeIn = keyframes({
 
 const FullBackgroundImage = ({ isUnderMaintenance = false }) => {
     return <div css={{
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.shopify.com/s/files/1/0581/5792/4544/files/KnowtheRose_dried-flowers-australia-2.jpg)',
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${image})`,
         width: '100%',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
