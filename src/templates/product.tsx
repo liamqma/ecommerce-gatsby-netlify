@@ -8,7 +8,7 @@ import { useCart } from "../hooks/cart";
 import meta from '../data/meta'
 
 function ProductTemplate({ pageContext }: { pageContext: { product: Product } }) {
-    const [{ items }, { addItem }] = useCart();
+    const [_, { addItem }] = useCart();
     const imageWrapperRef = useRef<HTMLDivElement>(null);
     const imageRef = useRef<HTMLImageElement>(null);
     const [imageIndex, setImageIndex] = useState(0);
@@ -38,6 +38,7 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
     }
 
     const onSelectPrice = (priceId: string) => {
+        setImageIndex(product.prices.findIndex(p => p.id === priceId));
         setSelectedPriceId(priceId);
     }
 
@@ -119,7 +120,6 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
                                             position: 'absolute',
                                             top: '0',
                                             left: '0',
-                                            height: '100%',
                                             width: '100%',
                                             cursor: 'pointer',
                                             borderRadius: '10px',

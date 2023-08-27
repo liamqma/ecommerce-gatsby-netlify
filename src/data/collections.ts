@@ -10,7 +10,13 @@ const c: Collection[] = [
     id: 'collection-1',
     name: 'Collection 1',
     image: '/static/1.jpg',
-    products: ['nkyo1bq0u8odob', 'nhwdaxbjj6lgw5'],
+    products: [
+      'nkyo1bq0u8odob',
+      'nhwdaxbjj6lgw5',
+      'nhwdaxbjj6lgw1',
+      'nhwdaxbjj6lgw2',
+      'nhwdaxbjj6lgw3',
+    ],
   },
   {
     id: 'collection-2',

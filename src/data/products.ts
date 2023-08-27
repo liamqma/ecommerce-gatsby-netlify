@@ -17,8 +17,8 @@ const p: Product[] = [
     id: 'nkyo1bq0u8odob',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere nec magna eget aliquam. Fusce at volutpat ipsum. Curabitur placerat ornare quam, eget rhoncus est lobortis non. Phasellus eleifend velit nulla, ut interdum turpis lobortis.',
-    images: ['/static/1.jpg', '/static/2.jpg'],
-    name: 'Flower Plant',
+    images: ['/static/1/1.jpg', '/static/1/2.jpg', '/static/1/3.jpg', '/static/1/4.jpg'],
+    name: 'Product 1',
     prices: [
       { id: 'price_1MZtglBx9e7RzSyHvkmq5o0M', nickname: 'Small', unit_amount: 199 },
       { id: 'price_1NEKr2Bx9e7RzSyHyHRAJhVl', nickname: 'Large', unit_amount: 399 },
@@ -28,8 +28,32 @@ const p: Product[] = [
     id: 'nhwdaxbjj6lgw5',
     description:
       'We believe in creating pieces that are respectful to the environment they are celebrating. The Luna Bouquet features rustic blush tones of Australian native myrtle, creamy hues of natural rice flower, and the dreamy translucent petals of lunaria. ',
-    images: ['/static/2.jpg', '/static/1.jpg'],
-    name: 'Everlasting Luna Bouquet',
+    images: ['/static/2/1.jpg', '/static/2/2.jpg', '/static/2/3.jpg', '/static/2/4.jpg'],
+    name: 'Product 2',
+    prices: [{ id: 'price_1MXMkEBx9e7RzSyHf1WhESI3', nickname: null, unit_amount: 99 }],
+  },
+  {
+    id: 'nhwdaxbjj6lgw1',
+    description:
+      'We believe in creating pieces that are respectful to the environment they are celebrating. The Luna Bouquet features rustic blush tones of Australian native myrtle, creamy hues of natural rice flower, and the dreamy translucent petals of lunaria. ',
+    images: ['/static/3/1.jpg', '/static/3/2.jpg', '/static/3/3.jpg', '/static/3/4.jpg'],
+    name: 'Product 3',
+    prices: [{ id: 'price_1MXMkEBx9e7RzSyHf1WhESI3', nickname: null, unit_amount: 99 }],
+  },
+  {
+    id: 'nhwdaxbjj6lgw2',
+    description:
+      'We believe in creating pieces that are respectful to the environment they are celebrating. The Luna Bouquet features rustic blush tones of Australian native myrtle, creamy hues of natural rice flower, and the dreamy translucent petals of lunaria. ',
+    images: ['/static/4/1.jpg', '/static/4/2.jpg', '/static/4/3.jpg', '/static/4/4.jpg'],
+    name: 'Product 4',
+    prices: [{ id: 'price_1MXMkEBx9e7RzSyHf1WhESI3', nickname: null, unit_amount: 99 }],
+  },
+  {
+    id: 'nhwdaxbjj6lgw3',
+    description:
+      'We believe in creating pieces that are respectful to the environment they are celebrating. The Luna Bouquet features rustic blush tones of Australian native myrtle, creamy hues of natural rice flower, and the dreamy translucent petals of lunaria. ',
+    images: ['/static/5/1.jpg', '/static/5/2.jpg', '/static/5/3.jpg', '/static/5/4.jpg'],
+    name: 'Product 5',
     prices: [{ id: 'price_1MXMkEBx9e7RzSyHf1WhESI3', nickname: null, unit_amount: 99 }],
   },
 ];
