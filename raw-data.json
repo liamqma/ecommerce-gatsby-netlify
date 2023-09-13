@@ -68,9 +68,9 @@
       "/static/fairy-floss/35.jpg",
       "/static/fairy-floss/37.jpg",
       "/static/fairy-floss/5.jpg",
-      "/static/fairy-floss/l.jpg",
-      "/static/fairy-floss/m.jpg",
-      "/static/fairy-floss/s.jpg"
+      "/static/fairy-floss/large.jpg",
+      "/static/fairy-floss/medium.jpg",
+      "/static/fairy-floss/small.jpg"
     ],
     "name": "Fairy Floss",
     "prices": [
@@ -95,9 +95,9 @@
       "/static/wilds-of-nature/54.jpg",
       "/static/wilds-of-nature/55.jpg",
       "/static/wilds-of-nature/56.jpg",
-      "/static/wilds-of-nature/l.jpg",
-      "/static/wilds-of-nature/m.jpg",
-      "/static/wilds-of-nature/s.jpg"
+      "/static/wilds-of-nature/large.jpg",
+      "/static/wilds-of-nature/medium.jpg",
+      "/static/wilds-of-nature/small.jpg"
     ],
     "name": "Wilds of Nature",
     "prices": [
@@ -136,9 +136,9 @@
       "/static/pure-love/22.jpg",
       "/static/pure-love/30.jpg",
       "/static/pure-love/31.jpg",
-      "/static/pure-love/l.jpg",
-      "/static/pure-love/m.jpg",
-      "/static/pure-love/s.jpg"
+      "/static/pure-love/large.jpg",
+      "/static/pure-love/medium.jpg",
+      "/static/pure-love/small.jpg"
     ],
     "name": "Pure Love",
     "prices": [
