@@ -38,7 +38,14 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
     }
 
     const onSelectPrice = (priceId: string) => {
-        setImageIndex(product.prices.findIndex(p => p.id === priceId));
+        const selectedPrice = product.prices.find(p => p.id === priceId);
+        if (selectedPrice) {
+            const selectedImageIndex = product.images.findIndex(image => image.includes(selectedPrice.nickname))
+            if (selectedImageIndex >= 0) {
+                setImageIndex(selectedImageIndex);
+            }
+        }
+
         setSelectedPriceId(priceId);
     }
 

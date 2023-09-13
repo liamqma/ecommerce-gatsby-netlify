@@ -2,7 +2,7 @@ import rawP from '../../raw-data.json';
 
 export type Price = {
   id: string;
-  nickname: string | null;
+  nickname: string;
   unit_amount: number;
 };
 

@@ -116,9 +116,9 @@
       "/static/amethyst-dream/41.jpg",
       "/static/amethyst-dream/42.jpg",
       "/static/amethyst-dream/43.jpg",
-      "/static/amethyst-dream/l.jpg",
-      "/static/amethyst-dream/m.jpg",
-      "/static/amethyst-dream/s.jpg"
+      "/static/amethyst-dream/large.jpg",
+      "/static/amethyst-dream/medium.jpg",
+      "/static/amethyst-dream/small.jpg"
     ],
     "name": "Amethyst Dream",
     "prices": [
