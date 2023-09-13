@@ -9,7 +9,7 @@ function CollectionTemplate({ pageContext }: { pageContext: { products: Product[
     const items = products.map(item => ({
         ...item,
         image: item.images[0],
-        href: `/product/${item.id}`,
+        href: `/product/${item.url}`,
         price: item.prices[0].unit_amount,
     }))
     return <Layout><ItemList items={items} /></Layout>

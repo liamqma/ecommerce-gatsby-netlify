@@ -1,6 +1,7 @@
 const Stripe = require('stripe');
 const path = require('path');
 const fs = require('fs');
+const lodash = require('lodash');
 require('dotenv').config({ path: path.resolve(process.cwd(), '.env.local') });
 
 const stripe = new Stripe(process.env.STRIPE_API_KEY, {
@@ -22,10 +23,17 @@ async function main() {
   });
 
   products.forEach((product) => {
+    const productSegment = lodash.kebabCase(product.name);
+    const images = fs
+      .readdirSync(path.resolve(process.cwd(), 'static', 'static', productSegment))
+      .filter((file) => file.endsWith('jpg'))
+      .map((file) => `/static/${productSegment}/${file}`);
+
     output.push({
-      id: product.id.replace('prod_', '').toLowerCase(),
+      id: product.id,
+      url: productSegment,
       description: product.description,
-      images: product.images,
+      images: images,
       name: product.name,
       prices: prices
         .filter((price) => price.product === product.id)

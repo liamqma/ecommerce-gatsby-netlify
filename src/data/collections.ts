@@ -10,19 +10,19 @@ const c: Collection[] = [
     id: 'flower-frames',
     name: 'Flower Frames',
     image: '/static/mysa-12.jpg',
-    products: ['od3nvr7zgxrmqy', 'od3lsemuayzi3z'],
+    products: ['a-field-trip', 'candy-crush'],
   },
   {
     id: 'handtied-posies',
     name: 'Handtied Posies',
     image: '/static/mysa-03.jpg',
-    products: ['od3g6cuu9sx4j6', 'od3fj37dkkppln', 'od3c33cfrb7mfj', 'od3yclricys82l'],
+    products: ['fairy-floss', 'wilds-of-nature', 'amethyst-dream', 'pure-love'],
   },
   {
     id: 'flower-id-frames',
     name: 'Flower ID Frames',
     image: '/static/mysa-64.jpg',
-    products: ['od44omns7egb3e', 'od40wba88lnihy'],
+    products: ['smile-of-the-earth', 'sunset-glow'],
   },
 ];
 

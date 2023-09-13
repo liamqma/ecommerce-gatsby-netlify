@@ -5,7 +5,7 @@ import collections from './src/data/collections';
 exports.createPages = async function ({ actions }) {
   products.forEach((product) => {
     actions.createPage({
-      path: `/product/${product.id}`,
+      path: `/product/${product.url}`,
       component: path.resolve(`./src/templates/product.tsx`),
       context: {
         product,
@@ -15,7 +15,7 @@ exports.createPages = async function ({ actions }) {
 
   collections.forEach((collection) => {
     const p = products.filter((product) => {
-      return collection.products.includes(product.id);
+      return collection.products.includes(product.url);
     });
 
     actions.createPage({
