@@ -9,7 +9,8 @@ export type Item = {
     price?: number;
 };
 
-function ItemList({ items }: { items: Item[] }) {
+function ItemList({ items, imageAspectRatio = 1, numOfColumnsDesktop = 3 }: { items: Item[], imageAspectRatio?: number, numOfColumnsDesktop?: number }) {
+    const imageWidthInPercentage = (1 / numOfColumnsDesktop * 100).toFixed(2)
     return (
         <div css={{
             paddingTop: '27px',
@@ -46,17 +47,17 @@ function ItemList({ items }: { items: Item[] }) {
                 }}>
                     {items.map((item, index) =>
                         <li css={{
-                            maxWidth: 'calc(50% - var(--grid-mobile-horizontal-spacing) / 2)',
+                            maxWidth: '100%',
+                            width: '100%',
                             flexGrow: '1',
                             flexShrink: '0',
-                            width: 'calc(50% - var(--grid-mobile-horizontal-spacing) / 2)',
                             "@media screen and (min-width: 750px)": {
                                 width: 'calc(50% - var(--grid-desktop-horizontal-spacing) / 2)',
                                 maxWidth: 'calc(50% - var(--grid-desktop-horizontal-spacing) / 2)'
                             },
                             "@media screen and (min-width: 990px)": {
-                                width: 'calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3)',
-                                maxWidth: 'calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3)',
+                                width: `calc(${imageWidthInPercentage}% - var(--grid-desktop-horizontal-spacing) * 2 / 3)`,
+                                maxWidth: `calc(${imageWidthInPercentage}% - var(--grid-desktop-horizontal-spacing) * 2 / 3)`,
                             },
                         }} key={index}>
                             <div css={{
@@ -74,7 +75,7 @@ function ItemList({ items }: { items: Item[] }) {
                                         content: "''",
                                         width: '0',
                                         height: '0',
-                                        paddingBottom: '125.0%'
+                                        paddingBottom: `${imageAspectRatio * 100}%`
                                     },
                                     position: 'relative',
                                     width: '100%',

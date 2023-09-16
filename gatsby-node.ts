@@ -24,6 +24,7 @@ exports.createPages = async function ({ actions }) {
       context: {
         products: p,
         name: collection.name,
+        imageAspectRatio: collection.imageAspectRatio,
       },
     });
   });
