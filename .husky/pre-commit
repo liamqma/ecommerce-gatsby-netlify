@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-./node_modules/.bin/prettier ./src --check
+./node_modules/.bin/prettier ./src --check && npm run cypress:run

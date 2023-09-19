@@ -271,7 +271,7 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
                     transform: 'scale(1.02)',
                   },
                 }}>
-                <span>Add to cart</span>
+                Add to cart
               </button>
               <div
                 css={{
