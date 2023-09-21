@@ -159,9 +159,7 @@ function ItemList({
                     <h3
                       css={{
                         marginTop: '0',
-                        ':last-child': {
-                          marginBottom: '0',
-                        },
+                        marginBottom: '0',
                         fontSize: 'calc(var(--font-heading-scale) * 2.8rem)',
                       }}>
                       <Link
@@ -186,7 +184,8 @@ function ItemList({
                     {item.price && (
                       <div
                         css={{
-                          fontSize: '1.6rem',
+                          fontFamily: 'var(--font-heading-family)',
+                          fontSize: '2.0rem',
                           letterSpacing: '0.1rem',
                           lineHeight: 'calc(1 + 0.5 / var(--font-body-scale))',
                           color: 'var(--color-1)',
