@@ -112,7 +112,7 @@
     "prices": [
       { "id": "price_1NpnVhBx9e7RzSyHacOcaske", "nickname": "small", "unit_amount": 43.95 },
       { "id": "price_1NpnVhBx9e7RzSyHkkNwY6rM", "nickname": "medium", "unit_amount": 83.95 },
-      { "id": "price_1NpnVhBx9e7RzSyHgedP0goe", "nickname": null, "unit_amount": 143.95 }
+      { "id": "price_1NpnVhBx9e7RzSyHgedP0goe", "nickname": "large", "unit_amount": 143.95 }
     ]
   },
   {

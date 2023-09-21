@@ -1,12 +1,14 @@
 import * as React from 'react';
 import { css } from '@emotion/css';
 import { Link } from 'gatsby';
+import { type Price } from '../../data/products';
 
 export type Item = {
   name: string;
   href: string;
   image: string;
   price?: number;
+  prices?: Price[];
 };
 
 function ItemList({
@@ -198,7 +200,8 @@ function ItemList({
                             display: 'inline-block',
                             verticalAlign: 'top',
                           }}>
-                          ${item.price.toFixed(2)} AUD
+                          {item.prices && item.prices.length > 1 && 'From '}${item.price.toFixed(2)}{' '}
+                          AUD
                         </span>
                       </div>
                     )}

@@ -18,15 +18,15 @@ const c: Collection[] = [
     id: 'posies',
     name: 'Posies',
     image: '/static/posies.jpg',
-    products: ['fairy-floss', 'wilds-of-nature', 'amethyst-dream', 'pure-love'],
-    imageAspectRatio: 3 / 4,
+    products: ['amethyst-dream', 'wilds-of-nature', 'fairy-floss', 'pure-love'],
+    imageAspectRatio: 4 / 3,
   },
   {
     id: 'art-frames',
     name: 'Art Frames',
     image: '/static/art-frames.jpg',
     products: ['smile-of-the-earth', 'sunset-glow'],
-    imageAspectRatio: 1,
+    imageAspectRatio: 4 / 3,
   },
 ];
 
