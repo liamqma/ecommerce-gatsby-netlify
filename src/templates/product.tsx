@@ -75,7 +75,7 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
               maxWidth: '100%',
               width: '100%',
               '@media screen and (min-width: 750px)': {
-                width: 'calc(50% - var(--grid-desktop-horizontal-spacing) / 2)',
+                width: 'calc(50% - var(--grid-desktop-horizontal-spacing)/2)',
               },
               '@media screen and (min-width: 990px)': {
                 maxWidth: '65%',
@@ -130,7 +130,7 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
                 columnGap: 'var(--grid-mobile-horizontal-spacing)',
                 rowGap: 'var(--grid-mobile-vertical-spacing)',
                 '@media screen and (min-width: 750px)': {
-                  columnGap: 'var(--grid-desktop-horizontal-spacing)',
+                  columnGap: '38px',
                   rowGap: 'var(--grid-desktop-vertical-spacing)',
                   marginTop: 'var(--grid-desktop-vertical-spacing)',
                 },
@@ -140,11 +140,11 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
                   key={index}
                   onClick={() => setImageIndex(index)}
                   css={{
-                    width: 'calc((100% - var(--grid-desktop-horizontal-spacing) * 3) / 4)',
+                    width: 'calc((100% - 38px * 3) / 4)',
                   }}>
                   <div
                     css={{
-                      paddingTop: '150%',
+                      paddingTop: '130%',
                       width: '100%',
                       position: 'relative',
                     }}>

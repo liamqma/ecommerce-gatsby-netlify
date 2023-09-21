@@ -162,10 +162,7 @@ function ItemList({
                         ':last-child': {
                           marginBottom: '0',
                         },
-                        fontSize: 'calc(var(--font-heading-scale) * 1.7rem)',
-                        '@media only screen and (min-width: 750px)': {
-                          fontSize: 'calc(var(--font-heading-scale) * 1.8rem)',
-                        },
+                        fontSize: 'calc(var(--font-heading-scale) * 2.8rem)',
                       }}>
                       <Link
                         to={item.href}
@@ -194,15 +191,8 @@ function ItemList({
                           lineHeight: 'calc(1 + 0.5 / var(--font-body-scale))',
                           color: 'var(--color-1)',
                         }}>
-                        <span
-                          css={{
-                            margin: '0 1rem 0 0',
-                            display: 'inline-block',
-                            verticalAlign: 'top',
-                          }}>
-                          {item.prices && item.prices.length > 1 && 'From '}${item.price.toFixed(2)}{' '}
-                          AUD
-                        </span>
+                        {item.prices && item.prices.length > 1 && 'From '}${item.price.toFixed(2)}{' '}
+                        AUD
                       </div>
                     )}
                   </div>
