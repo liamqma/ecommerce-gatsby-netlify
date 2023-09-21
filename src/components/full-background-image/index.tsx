@@ -11,7 +11,7 @@ const FullBackgroundImage = ({ isUnderMaintenance = false }) => {
   return (
     <div
       css={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${image})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${image})`,
         width: '100%',
         backgroundSize: 'cover',
         backgroundPosition: 'center',

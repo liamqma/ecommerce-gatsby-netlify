@@ -2,15 +2,12 @@
   {
     "id": "prod_Od44Omns7EGB3E",
     "url": "smile-of-the-earth",
-    "description": "Flower ID frame - earthy colours",
+    "description": "Our hand-painted floral art frames are lovingly created with great care. We locally collect flowers and foliage year-round, and carefully select materials that best complement the season, ensuring each frame possesses its own special charm.",
     "images": [
-      "/static/smile-of-the-earth/24.jpg",
-      "/static/smile-of-the-earth/25.jpg",
-      "/static/smile-of-the-earth/61.jpg",
-      "/static/smile-of-the-earth/62.jpg",
-      "/static/smile-of-the-earth/63.jpg",
-      "/static/smile-of-the-earth/64.jpg",
-      "/static/smile-of-the-earth/65.jpg"
+      "/static/smile-of-the-earth/1.jpg",
+      "/static/smile-of-the-earth/2.jpg",
+      "/static/smile-of-the-earth/3.jpg",
+      "/static/smile-of-the-earth/4.jpg"
     ],
     "name": "Smile of the Earth",
     "prices": [{ "id": "price_1NpnwUBx9e7RzSyHnFvSB7OQ", "nickname": null, "unit_amount": 59.95 }]
@@ -18,15 +15,12 @@
   {
     "id": "prod_Od40wbA88lnIhY",
     "url": "sunset-glow",
-    "description": "Flower ID frame - pink and purple",
+    "description": "Our hand-painted floral art frames are lovingly created with great care. We locally collect flowers and foliage year-round, and carefully select materials that best complement the season, ensuring each frame possesses its own special charm.",
     "images": [
-      "/static/sunset-glow/26.jpg",
-      "/static/sunset-glow/57.jpg",
-      "/static/sunset-glow/58.jpg",
-      "/static/sunset-glow/59.jpg",
-      "/static/sunset-glow/60.jpg",
-      "/static/sunset-glow/66.jpg",
-      "/static/sunset-glow/67.jpg"
+      "/static/sunset-glow/1.jpg",
+      "/static/sunset-glow/2.jpg",
+      "/static/sunset-glow/3.jpg",
+      "/static/sunset-glow/4.jpg"
     ],
     "name": "Sunset glow",
     "prices": [{ "id": "price_1NpnsZBx9e7RzSyHA3r7Xq3r", "nickname": null, "unit_amount": 59.95 }]
@@ -34,12 +28,14 @@
   {
     "id": "prod_Od3nvr7zgxRmQY",
     "url": "a-field-trip",
-    "description": "See-through flower frame - colour",
+    "description": "Meticulously selected and artfully arranged, our handmade garden frames represent the beauty of nature. At times, particular flowers or foliage may be temporarily unavailable. We then will  introduce alternative natural wonders in their stead.",
     "images": [
-      "/static/a-field-trip/12.jpg",
-      "/static/a-field-trip/13.jpg",
-      "/static/a-field-trip/14.jpg",
-      "/static/a-field-trip/15.jpg"
+      "/static/a-field-trip/1.jpg",
+      "/static/a-field-trip/2.jpg",
+      "/static/a-field-trip/3.jpg",
+      "/static/a-field-trip/4.jpg",
+      "/static/a-field-trip/5.jpg",
+      "/static/a-field-trip/6.jpg"
     ],
     "name": "A Field Trip",
     "prices": [{ "id": "price_1NpnfdBx9e7RzSyHy4smMreG", "nickname": null, "unit_amount": 119.95 }]
@@ -47,14 +43,14 @@
   {
     "id": "prod_Od3lseMuAYzi3z",
     "url": "candy-crush",
-    "description": "See-through flower frame - pink and white",
+    "description": "Meticulously selected and artfully arranged, our handmade garden frames represent the beauty of nature. At times, particular flowers or foliage may be temporarily unavailable. We then will  introduce alternative natural wonders in their stead.",
     "images": [
-      "/static/candy-crush/10.jpg",
-      "/static/candy-crush/11.jpg",
-      "/static/candy-crush/6.jpg",
-      "/static/candy-crush/7.jpg",
-      "/static/candy-crush/8.jpg",
-      "/static/candy-crush/9.jpg"
+      "/static/candy-crush/1.jpg",
+      "/static/candy-crush/2.jpg",
+      "/static/candy-crush/3.jpg",
+      "/static/candy-crush/4.jpg",
+      "/static/candy-crush/5.jpg",
+      "/static/candy-crush/6.jpg"
     ],
     "name": "Candy Crush",
     "prices": [{ "id": "price_1Npne3Bx9e7RzSyHjAURqJxT", "nickname": null, "unit_amount": 119.95 }]
@@ -62,12 +58,12 @@
   {
     "id": "prod_Od3g6Cuu9Sx4J6",
     "url": "fairy-floss",
-    "description": "Pink posy",
+    "description": "Fairy Floss is adorned with feathery blooms, its charming pink tones conveying an unmistakable sweetness.",
     "images": [
-      "/static/fairy-floss/33.jpg",
-      "/static/fairy-floss/35.jpg",
-      "/static/fairy-floss/37.jpg",
-      "/static/fairy-floss/5.jpg",
+      "/static/fairy-floss/1.jpg",
+      "/static/fairy-floss/2.jpg",
+      "/static/fairy-floss/3.jpg",
+      "/static/fairy-floss/4.jpg",
       "/static/fairy-floss/large.jpg",
       "/static/fairy-floss/medium.jpg",
       "/static/fairy-floss/small.jpg"
@@ -82,19 +78,12 @@
   {
     "id": "prod_Od3fJ37dKKPpLN",
     "url": "wilds-of-nature",
-    "description": "Neutral posy",
+    "description": "Wilds of Nature boasts a gentle palette of earthy hues, seamlessly complementing a variety of interiors while instilling a sense of tranquility and delight.",
     "images": [
+      "/static/wilds-of-nature/1.jpg",
+      "/static/wilds-of-nature/2.jpg",
+      "/static/wilds-of-nature/3.jpg",
       "/static/wilds-of-nature/4.jpg",
-      "/static/wilds-of-nature/47.jpg",
-      "/static/wilds-of-nature/48.jpg",
-      "/static/wilds-of-nature/49.jpg",
-      "/static/wilds-of-nature/50.jpg",
-      "/static/wilds-of-nature/51.jpg",
-      "/static/wilds-of-nature/52.jpg",
-      "/static/wilds-of-nature/53.jpg",
-      "/static/wilds-of-nature/54.jpg",
-      "/static/wilds-of-nature/55.jpg",
-      "/static/wilds-of-nature/56.jpg",
       "/static/wilds-of-nature/large.jpg",
       "/static/wilds-of-nature/medium.jpg",
       "/static/wilds-of-nature/small.jpg"
@@ -109,13 +98,12 @@
   {
     "id": "prod_Od3c33cFrB7mFJ",
     "url": "amethyst-dream",
-    "description": "Lavender posy",
+    "description": "At the heart of Amethyst Dream lies a soft purple, with the delicate scent of lavender subtly wafting through the air. Close your eyes and immerse yourself in a soothing, fragrant embrace.",
     "images": [
       "/static/amethyst-dream/1.jpg",
+      "/static/amethyst-dream/2.jpg",
       "/static/amethyst-dream/3.jpg",
-      "/static/amethyst-dream/41.jpg",
-      "/static/amethyst-dream/42.jpg",
-      "/static/amethyst-dream/43.jpg",
+      "/static/amethyst-dream/4.jpg",
       "/static/amethyst-dream/large.jpg",
       "/static/amethyst-dream/medium.jpg",
       "/static/amethyst-dream/small.jpg"
@@ -123,19 +111,19 @@
     "name": "Amethyst Dream",
     "prices": [
       { "id": "price_1NpnVhBx9e7RzSyHacOcaske", "nickname": "small", "unit_amount": 43.95 },
-      { "id": "price_1NpnVhBx9e7RzSyHkkNwY6rM", "nickname": "medium", "unit_amount": 83.95 }
+      { "id": "price_1NpnVhBx9e7RzSyHkkNwY6rM", "nickname": "medium", "unit_amount": 83.95 },
+      { "id": "price_1NpnVhBx9e7RzSyHgedP0goe", "nickname": null, "unit_amount": 143.95 }
     ]
   },
   {
     "id": "prod_Od3YclricYs82L",
     "url": "pure-love",
-    "description": "White posy ",
+    "description": "Pure Love, unblemished white – the epitome of innocence – is captured in our snowy white arrangement.",
     "images": [
-      "/static/pure-love/20.jpg",
-      "/static/pure-love/21.jpg",
-      "/static/pure-love/22.jpg",
-      "/static/pure-love/30.jpg",
-      "/static/pure-love/31.jpg",
+      "/static/pure-love/1.jpg",
+      "/static/pure-love/2.jpg",
+      "/static/pure-love/3.jpg",
+      "/static/pure-love/4.jpg",
       "/static/pure-love/large.jpg",
       "/static/pure-love/medium.jpg",
       "/static/pure-love/small.jpg"

@@ -8,23 +8,23 @@ export type Collection = {
 
 const c: Collection[] = [
   {
-    id: 'flower-frames',
-    name: 'Flower Frames',
-    image: '/static/mysa-12.jpg',
+    id: 'garden-frames',
+    name: 'Garden Frames',
+    image: '/static/garden-frames.jpg',
     products: ['a-field-trip', 'candy-crush'],
     imageAspectRatio: 4 / 3,
   },
   {
-    id: 'handtied-posies',
-    name: 'Handtied Posies',
-    image: '/static/mysa-03.jpg',
+    id: 'posies',
+    name: 'Posies',
+    image: '/static/posies.jpg',
     products: ['fairy-floss', 'wilds-of-nature', 'amethyst-dream', 'pure-love'],
     imageAspectRatio: 3 / 4,
   },
   {
-    id: 'flower-id-frames',
-    name: 'Flower ID Frames',
-    image: '/static/mysa-64.jpg',
+    id: 'art-frames',
+    name: 'Art Frames',
+    image: '/static/art-frames.jpg',
     products: ['smile-of-the-earth', 'sunset-glow'],
     imageAspectRatio: 1,
   },
