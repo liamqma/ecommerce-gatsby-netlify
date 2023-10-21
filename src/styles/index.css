@@ -191,6 +191,10 @@ summary::-webkit-details-marker {
   display: none;
 }
 
+a {
+  color: var(--color-1);
+}
+
 *:focus {
   outline: 0;
   box-shadow: none;

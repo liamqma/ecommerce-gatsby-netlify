@@ -13,66 +13,20 @@ type MenuItem = {
 
 const menu: MenuItem[] = [
   {
-    href: '#',
-    name: 'Menu Item 1',
+    href: '/',
+    name: 'Home',
   },
   {
-    name: 'Menu Item 2',
-    children: [
-      {
-        href: '#',
-        name: 'Sub Menu Item 1',
-      },
-      {
-        href: '#',
-        name: 'Sub Menu Item 2',
-      },
-      {
-        href: '#',
-        name: 'Sub Menu Item 3',
-      },
-      {
-        href: '#',
-        name: 'Sub Menu Item 4',
-      },
-      {
-        href: '#',
-        name: 'Sub Menu Item 5',
-      },
-    ],
+    href: '/',
+    name: 'Shop All',
   },
   {
     href: '#',
-    name: 'Menu Item 3',
+    name: 'Limited Edition',
   },
   {
-    href: '#',
-    name: 'Menu Item 4',
-  },
-  {
-    name: 'Menu Item 5',
-    children: [
-      {
-        href: '#',
-        name: 'Sub Menu Item 1',
-      },
-      {
-        href: '#',
-        name: 'Sub Menu Item 2',
-      },
-      {
-        href: '#',
-        name: 'Sub Menu Item 3',
-      },
-      {
-        href: '#',
-        name: 'Sub Menu Item 4',
-      },
-      {
-        href: '#',
-        name: 'Sub Menu Item 5',
-      },
-    ],
+    href: '/contact-us',
+    name: 'Contact Us',
   },
 ];
 
@@ -466,8 +420,8 @@ const Nav = ({ isSticky = false }: { isSticky?: boolean }) => (
                 tabIndex={-1}>
                 {menuItem.children.map((mItem, index) => (
                   <li key={index}>
-                    <a
-                      href={mItem.href}
+                    <Link
+                      to={mItem.href || ''}
                       css={{
                         justifyContent: 'space-between',
                         padding: '0.8rem 2.4rem',
@@ -489,14 +443,14 @@ const Nav = ({ isSticky = false }: { isSticky?: boolean }) => (
                         },
                       }}>
                       {mItem.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
             </details>
           ) : (
-            <a
-              href={menuItem.href}
+            <Link
+              to={menuItem.href || ''}
               css={{
                 display: 'flex',
                 alignItems: 'center',
@@ -513,7 +467,7 @@ const Nav = ({ isSticky = false }: { isSticky?: boolean }) => (
                 },
               }}>
               <span>{menuItem.name}</span>
-            </a>
+            </Link>
           )}
         </li>
       ))}

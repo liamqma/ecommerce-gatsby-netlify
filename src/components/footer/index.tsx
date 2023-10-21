@@ -1,5 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/css';
+import { Link } from 'gatsby';
 
 const linkStyle = css({
   fontSize: '1.4rem',
@@ -63,29 +64,19 @@ function Footer() {
             <h2 className={h2Style}>Shop</h2>
             <ul className={ulStyle}>
               <li>
-                <a href="/collections/prints" className={linkStyle}>
-                  Menu Item 1
-                </a>
+                <Link to="/collection/garden-frames" className={linkStyle}>
+                  Garden Frames
+                </Link>
               </li>
               <li>
-                <a href="/collections/originals" className={linkStyle}>
-                  Menu Item 2
-                </a>
+                <Link to="/collection/posies" className={linkStyle}>
+                  Posies
+                </Link>
               </li>
               <li>
-                <a href="/collections/art-objects" className={linkStyle}>
-                  Menu Item 3
-                </a>
-              </li>
-              <li>
-                <a href="/products/gift-card" className={linkStyle}>
-                  Menu Item 4
-                </a>
-              </li>
-              <li>
-                <a href="/search" className={linkStyle}>
-                  Menu Item 5
-                </a>
+                <Link to="/collection/art-frames" className={linkStyle}>
+                  Art Frames
+                </Link>
               </li>
             </ul>
           </div>
@@ -96,22 +87,21 @@ function Footer() {
               gridRowStart: 1,
               gridRowEnd: 2,
             }}>
-            <h2 className={h2Style}>Info</h2>
-            <ul className={ulStyle}>
+            <ul className={css([ulStyle, { marginTop: '52px' }])}>
               <li>
-                <a href="/pages/about-us" className={linkStyle}>
-                  Our Story
-                </a>
+                <Link to="/contact-us" className={linkStyle}>
+                  Contact Us
+                </Link>
               </li>
               <li>
-                <a href="/blogs/news" className={linkStyle}>
-                  Menu Item 1
-                </a>
+                <Link to="/#" className={linkStyle}>
+                  Caring tips
+                </Link>
               </li>
               <li>
-                <a href="/pages/contact" className={linkStyle}>
-                  Menu Item 2
-                </a>
+                <Link to="/#" className={linkStyle}>
+                  FAQ
+                </Link>
               </li>
             </ul>
           </div>
@@ -128,8 +118,24 @@ function Footer() {
                 gridRowEnd: 2,
               },
             }}>
-            <h2 className={h2Style}>Our mission</h2>
-            <p>We curate affordably priced pieces from the most exciting up-and-coming artists.</p>
+            <h2 className={h2Style}>Info</h2>
+            <ul className={ulStyle}>
+              <li>
+                <Link to="/shipping-returns" className={linkStyle}>
+                  Shipping & Returns
+                </Link>
+              </li>
+              <li>
+                <Link to="/privacy-policy" className={linkStyle}>
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/terms-and-condition" className={linkStyle}>
+                  Service Terms and Conditions
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
