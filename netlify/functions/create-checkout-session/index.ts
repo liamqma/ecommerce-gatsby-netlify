@@ -16,6 +16,20 @@ export const handler: Handler = async (event) => {
   const url = parse(event.rawUrl);
   const URL = `${url.protocol}//${url.host}`;
 
+  let totalPrice = 0;
+
+  for (const item of items) {
+    const price = await stripe.prices.retrieve(item.id);
+    if (!price?.unit_amount) throw new Error('Price not found');
+    totalPrice += price.unit_amount * item.qty;
+  }
+
+  if (totalPrice >= 20000) {
+  }
+
+  const shippingRate =
+    totalPrice >= 20000 ? 'shr_1O3xi2Bx9e7RzSyH1YVTiYd0' : 'shr_1O3xs9Bx9e7RzSyHk9sbtc12';
+
   const lineItems = items.map((item) => {
     return {
       price: item.id,
@@ -32,10 +46,7 @@ export const handler: Handler = async (event) => {
     shipping_address_collection: { allowed_countries: ['AU'] },
     shipping_options: [
       {
-        shipping_rate: 'shr_1Ma4w7Bx9e7RzSyHktl5Z9Vv',
-      },
-      {
-        shipping_rate: 'shr_1NEUWiBx9e7RzSyH5Wlntv7V',
+        shipping_rate: shippingRate,
       },
     ],
     automatic_tax: {

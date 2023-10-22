@@ -694,15 +694,15 @@ const CartPage = () => {
               </button>
             </div>
             {isError && (
-              <div
-                css={{
-                  textAlign: 'center',
-                  marginTop: '1rem',
-                  '@media screen and (min-width: 750px)': {
-                    textAlign: 'right',
-                  },
-                }}>
-                Error! Please try again or contact us.
+              <div>
+                <p>
+                  We apologize for the inconvenience. There seems to be a glitch while processing
+                  your cart. We kindly ask you to try again.
+                </p>
+                <p>
+                  Should the problem persist, do not hesitate to get in touch with us at
+                  info@mysaandco.com.au.
+                </p>
               </div>
             )}
           </div>
