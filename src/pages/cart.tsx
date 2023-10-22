@@ -88,7 +88,7 @@ function CartRow({
           },
         }}>
         <Link
-          to={`/product/${product.id}`}
+          to={`/product/${product.url}`}
           css={{
             color: 'var(--color-1)',
             textDecoration: 'none',
@@ -377,6 +377,7 @@ const CartPage = () => {
   const [loading, setLoading] = useState(false);
   const [isError, setIsError] = useState(false);
   const [isClient, setIsClient] = useState(false);
+  console.log(items);
 
   useEffect(() => {
     setIsClient(true);
