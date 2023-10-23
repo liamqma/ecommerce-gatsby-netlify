@@ -17,7 +17,7 @@ const menu: MenuItem[] = [
     name: 'Home',
   },
   {
-    href: '/',
+    href: '/shop-all',
     name: 'Shop All',
   },
   {

@@ -11,8 +11,7 @@ const IconArrow = styled(BaseIconArrow)({
 
 function SectionAnnouncementBar() {
   return (
-    <a
-      href="/collections/leia-bryans"
+    <div
       css={{
         backgroundColor: 'var(--color-1)',
         display: 'block',
@@ -22,9 +21,8 @@ function SectionAnnouncementBar() {
         fontSize: '1.4rem',
         textAlign: 'center',
       }}>
-      A very important announcement
-      <IconArrow />
-    </a>
+      Open your senses and enjoy this moment surrounded by flowers.
+    </div>
   );
 }
 

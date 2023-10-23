@@ -18,7 +18,7 @@ const PrivacyPolicyPage = () => {
           associated products and services, collectively known as the "Services." The Policy also
           details the options at your disposal concerning how we use your Personal Information and
           how you can access and modify this data. It's essential to recognize that this Policy
-          constitutes a legally binding agreement between you, and Mysa and Co. By accessing and
+          constitutes a legally binding agreement between you, and Mysa & Co. By accessing and
           utilizing the Website and Services, you explicitly acknowledge that you have perused,
           comprehended, and concurred to abide by the stipulations of this Policy. It's important to
           note that this Policy does not pertain to the practices of businesses that we neither own

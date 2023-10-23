@@ -26,5 +26,5 @@ function CollectionTemplate({
 export default CollectionTemplate;
 
 export function Head({ pageContext }: { pageContext: { name: string } }) {
-  return <title>{`Buy ${pageContext.name} | ${meta.title}`}</title>;
+  return <title>{`${pageContext.name} | ${meta.title}`}</title>;
 }

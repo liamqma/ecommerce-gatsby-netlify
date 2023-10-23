@@ -14,7 +14,7 @@ const TermsConditionsPage = () => {
           This document, referred to as the "Agreement," delineates the overarching terms and
           conditions governing your utilization of the mysaandco.com.au website and its affiliated
           products and services, collectively known as the "Services." The Agreement constitutes a
-          legally binding pact between you and MYSA AND CO. .Upon accessing and making use of the
+          legally binding pact between you and MYSA & CO. Upon accessing and making use of the
           Website and Services, you explicitly validate that you have perused, comprehended, and
           accepted the obligations set forth in this Agreement. In the event that you are acting on
           behalf of a business or another legal entity, you assert that you possess the authority to
@@ -99,12 +99,12 @@ const TermsConditionsPage = () => {
           third-party services. This includes, but is not limited to, aspects such as their content
           or the way they manage data (including your data) or any interactions that may occur
           between you and the provider of these third-party services. By choosing to use these
-          services, you are essentially waiving any potential claims against MYSA AND CO. related to
-          these services. We want to emphasize that MYSA AND CO. cannot be held accountable for any
+          services, you are essentially waiving any potential claims against MYSA & CO. related to
+          these services. We want to emphasize that MYSA & CO. cannot be held accountable for any
           damages or losses, real or alleged, that may be associated with your decision to enable,
           access, or use these third-party services. You should also be aware that you may need to
           register for or log into these third-party services through their respective platforms. By
-          enabling any third-party services, you are explicitly giving MYSA AND CO. permission to
+          enabling any third-party services, you are explicitly giving MYSA & CO. permission to
           disclose your data as required to facilitate the use or activation of these third-party
           services.
         </p>

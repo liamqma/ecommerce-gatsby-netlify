@@ -3,6 +3,16 @@ import products from './src/data/products';
 import collections from './src/data/collections';
 
 exports.createPages = async function ({ actions }) {
+  actions.createPage({
+    path: 'shop-all',
+    component: path.resolve(`./src/templates/collection.tsx`),
+    context: {
+      products,
+      name: 'Shop All',
+      imageAspectRatio: 4 / 3,
+    },
+  });
+
   products.forEach((product) => {
     actions.createPage({
       path: `/product/${product.url}`,

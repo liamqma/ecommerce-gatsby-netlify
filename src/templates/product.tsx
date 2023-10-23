@@ -315,7 +315,7 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
               }}>
               <h3>Shipping</h3>
               <p>
-                At MYSA AND CO, we proudly deliver our products across Australia (excluding
+                At MYSA & CO., we proudly deliver our products across Australia (excluding
                 Tasmania), utilizing the reliable services of Australia Post.{' '}
               </p>
               <p>
@@ -343,7 +343,7 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
               }}>
               <h3>Returns</h3>
               <p>
-                At MYSA & CO, we regret to inform you that, given the nature of our products, we
+                At MYSA & CO., we regret to inform you that, given the nature of our products, we
                 cannot facilitate returns or exchanges for cases of a change of mind.
               </p>
               <p>

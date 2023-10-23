@@ -1,5 +1,5 @@
 const meta = {
-  title: `Mysa & Co`,
+  title: `MYSA & CO.`,
 };
 
 export default meta;

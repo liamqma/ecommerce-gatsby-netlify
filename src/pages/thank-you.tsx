@@ -28,7 +28,7 @@ const ThankYouPage = () => {
           }}>
           Thank you for your order.
         </h1>
-        <p>We are processing your oder. blah blah blah...</p>
+        <p>We are processing your oder. We will be sending you a receipt via email shortly.</p>
       </div>
     </Layout>
   );

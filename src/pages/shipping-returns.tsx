@@ -11,7 +11,7 @@ const ShippingReturnsPage = () => {
         }}>
         <h2>Shipping Information</h2>
         <p>
-          At MYSA AND CO, we proudly deliver our products across Australia (excluding Tasmania),
+          At MYSA & CO., we proudly deliver our products across Australia (excluding Tasmania),
           utilizing the reliable services of Australia Post. To make things clear and convenient for
           you, here's a breakdown of our shipping options and associated fees:
         </p>

@@ -143,9 +143,10 @@ function Footer() {
         css={{
           borderTop: 'solid 0.1rem var(--color-4)',
           paddingTop: '3rem',
-          fontSize: '1.2rem',
+          fontSize: '1.8rem',
           textAlign: 'center',
           width: '100%',
+          fontFamily: 'var(--font-heading-family)',
         }}>
         <small>© 2023 MYSA & CO. Sydney, Australia</small>
       </div>
