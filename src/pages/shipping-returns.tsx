@@ -11,21 +11,21 @@ const ShippingReturnsPage = () => {
         }}>
         <h2>Shipping Information</h2>
         <p>
-          At MYSA & CO., we proudly deliver our products across Australia (excluding Tasmania),
+          At Mysa & Co., we proudly deliver our products across Australia（excluding Tasmania）,
           utilizing the reliable services of Australia Post. To make things clear and convenient for
           you, here's a breakdown of our shipping options and associated fees:
         </p>
         <p>
-          <b>Express Post for orders under $200 (1-3 business days): $10</b>
+          <b>Express Post for orders under $200: $10</b>
           <br />
-          <b>Express Post for orders over $200 (1-3 business days): FREE</b>
+          <b>Express Post for orders over $200: FREE</b>
         </p>
         <p>
           Each parcel is equipped with tracking capabilities, and rest assured, we'll furnish you
           with a tracking number when your order is ready for dispatch.
         </p>
         <p>
-          For your peace of mind, please note that MYSA & CO doesn't mandate a signature upon
+          For your peace of mind, please note that Mysa & Co. doesn't mandate a signature upon
           delivery. However, Australia Post will reach out to you via SMS or Email to secure your
           permission for either safe delivery or collection at your local post office. If you wish
           to elevate your shipping experience by adding extra protection against loss or opting for
@@ -35,7 +35,7 @@ const ShippingReturnsPage = () => {
         </p>
         <h2>Returns & Refunds Policy</h2>
         <p>
-          At MYSA & CO, we regret to inform you that, given the nature of our products, we cannot
+          At Mysa & Co., we regret to inform you that, given the nature of our products, we cannot
           facilitate returns or exchanges for cases of a change of mind. However, if your item
           arrives in a damaged condition, we kindly request you to share a photo of the damaged
           product along with your order number. This information will enable us to assess the

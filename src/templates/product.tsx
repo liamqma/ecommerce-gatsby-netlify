@@ -315,17 +315,15 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
               }}>
               <h3>Shipping</h3>
               <p>
-                At MYSA & CO., we proudly deliver our products across Australia (excluding
-                Tasmania), utilizing the reliable services of Australia Post.{' '}
+                At Mysa & Co., we proudly deliver our products across Australia（excluding
+                Tasmania）, utilizing the reliable services of Australia Post. To make things clear
+                and convenient for you, here's a breakdown of our shipping options and associated
+                fees:
               </p>
               <p>
-                To make things clear and convenient for you, here's a breakdown of our shipping
-                options and associated fees:
-              </p>
-              <p>
-                <b>Express Post for orders under $200 (1-3 business days): $10</b>
+                <b>Express Post for orders under $200: $10</b>
                 <br />
-                <b>Express Post for orders over $200 (1-3 business days): FREE</b>
+                <b>Express Post for orders over $200: FREE</b>
               </p>
               <p>
                 Each parcel is equipped with tracking capabilities, and rest assured, we'll furnish
@@ -343,21 +341,14 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
               }}>
               <h3>Returns</h3>
               <p>
-                At MYSA & CO., we regret to inform you that, given the nature of our products, we
-                cannot facilitate returns or exchanges for cases of a change of mind.
-              </p>
-              <p>
-                However, if your item arrives in a damaged condition, we kindly request you to share
-                a photo of the damaged product along with your order number.
-              </p>
-              <p>
-                This information will enable us to assess the situation before proceeding with
-                sending a new product.
-              </p>
-              <p>
-                For the replacing process to proceed, we will need a valid receipt, purchase order,
-                or any other substantiating proof of purchase. Without this essential proof,
-                regrettably, we won't be able to issue a replacement.
+                At Mysa & Co., we regret to inform you that, given the nature of our products, we
+                cannot facilitate returns or exchanges for cases of a change of mind. However, if
+                your item arrives in a damaged condition, we kindly request you to share a photo of
+                the damaged product along with your order number. This information will enable us to
+                assess the situation before proceeding with sending a new product. For the replacing
+                process to proceed, we will need a valid receipt, purchase order, or any other
+                substantiating proof of purchase. Without this essential proof, regrettably, we
+                won't be able to issue a replacement.
               </p>
             </div>
           </li>

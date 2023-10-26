@@ -3,8 +3,9 @@ import { css } from '@emotion/css';
 import { Link } from 'gatsby';
 
 const linkStyle = css({
-  fontSize: '1.4rem',
+  fontSize: '1.6rem',
   color: 'var(--color-1)',
+  fontFamily: 'var(--font-heading-family)',
 });
 
 const ulStyle = css({
@@ -94,12 +95,12 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/#" className={linkStyle}>
-                  Caring tips
+                <Link to="/things-to-know" className={linkStyle}>
+                  Things to Know
                 </Link>
               </li>
               <li>
-                <Link to="/#" className={linkStyle}>
+                <Link to="/faq" className={linkStyle}>
                   FAQ
                 </Link>
               </li>
@@ -133,6 +134,11 @@ function Footer() {
               <li>
                 <Link to="/terms-and-condition" className={linkStyle}>
                   Service Terms and Conditions
+                </Link>
+              </li>
+              <li>
+                <Link to="/disclaimer" className={linkStyle}>
+                  Disclaimer
                 </Link>
               </li>
             </ul>
