@@ -1,6 +1,10 @@
 import { Handler } from '@netlify/functions';
+import { wrap } from '@netlify/integrations';
 import Stripe from 'stripe';
 import { parse } from 'url';
+import { withSentry } from '@netlify/sentry';
+
+const withIntegrations = wrap(withSentry);
 
 if (typeof process.env.STRIPE_API_KEY !== 'string')
   throw new Error('STRIPE_API_KEY is not available.');
@@ -9,7 +13,7 @@ const stripe = new Stripe(process.env.STRIPE_API_KEY, {
   apiVersion: '2022-11-15',
 });
 
-export const handler: Handler = async (event) => {
+export const handler: Handler = withIntegrations(async (event) => {
   if (!event.body) throw new Error('Incorrect input');
   const items = JSON.parse(event.body);
 
@@ -61,4 +65,4 @@ export const handler: Handler = async (event) => {
       url: session.url,
     }),
   };
-};
+});
