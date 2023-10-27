@@ -21,10 +21,6 @@ const menu: MenuItem[] = [
     name: 'Shop All',
   },
   {
-    href: '#',
-    name: 'Limited Edition',
-  },
-  {
     href: '/contact-us',
     name: 'Contact Us',
   },
