@@ -489,7 +489,7 @@ const HeaderIcons = () => {
         justifySelf: 'end',
       }}>
       <a
-        href="https://billing.stripe.com/p/login/test_5kAeWl82y7gL3w45kk"
+        href="https://billing.stripe.com/p/login/4gw15GfpF9QmgCIeUU"
         css={{
           color: 'var(--color-1)',
           marginRight: '10px',
