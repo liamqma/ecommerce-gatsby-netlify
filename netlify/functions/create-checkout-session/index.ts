@@ -32,13 +32,13 @@ export const handler: Handler = withIntegrations(async (event) => {
   }
 
   const shippingRate =
-    totalPrice >= 20000 ? 'shr_1O3xi2Bx9e7RzSyH1YVTiYd0' : 'shr_1O3xs9Bx9e7RzSyHk9sbtc12';
+    totalPrice >= 20000 ? 'shr_1O65A3Bx9e7RzSyHuq5qw4C4' : 'shr_1O659yBx9e7RzSyHs7UItlhz';
 
   const lineItems = items.map((item) => {
     return {
       price: item.id,
       quantity: item.qty,
-      tax_rates: ['txr_1NEUZjBx9e7RzSyHu7yTIl66'],
+      tax_rates: ['txr_1O65AABx9e7RzSyHxw87gvEg'],
     };
   });
 

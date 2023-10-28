@@ -377,7 +377,6 @@ const CartPage = () => {
   const [loading, setLoading] = useState(false);
   const [isError, setIsError] = useState(false);
   const [isClient, setIsClient] = useState(false);
-  console.log(items);
 
   useEffect(() => {
     setIsClient(true);
