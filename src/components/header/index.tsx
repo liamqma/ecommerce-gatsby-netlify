@@ -269,7 +269,7 @@ const HeaderDrawer = ({ onSummaryClick }: { onSummaryClick: MouseEventHandler })
                       {children ? (
                         <MenuDrawerSubMenu href={href} name={name} children={children} />
                       ) : (
-                        <Link to={'#'} css={linkStyle}>
+                        <Link to={href || ''} css={linkStyle}>
                           {name}
                         </Link>
                       )}
