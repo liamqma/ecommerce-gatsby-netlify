@@ -7,14 +7,15 @@ const ContactUsPage = () => {
         css={{
           textAlign: 'center',
           margin: '7rem auto',
+          padding: '0 2rem',
           maxWidth: 'var(--page-width)',
         }}>
         <p>
-          Should you desire to reach out to us for further insights into this Agreement or have any
-          inquiries pertaining to its contents, <br />
-          please don't hesitate to get in touch by sending an email to our provided email address.
+          Your feedback is highly valuable to us, and we are here to assist you with any concerns.
         </p>
         <p>
+          Please feel free to reach out to us via email anytime at:
+          <br />
           <a href="mailto:info@mysaandco.com.au">info@mysaandco.com.au</a>
         </p>
       </div>
