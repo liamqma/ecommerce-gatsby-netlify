@@ -279,6 +279,23 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
                 }}
                 dangerouslySetInnerHTML={{ __html: product.description }}
               />
+              {product.metadata && (
+                <ul>
+                  {Object.entries(product.metadata).map((metadata) => {
+                    const [key, value] = metadata;
+                    return (
+                      <li key={key}>
+                        {key}: {value}
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+              <p>
+                At times, particular flowers or foliage may be temporarily unavailable. We then will
+                introduce alternative natural wonders in their stead.
+              </p>
+              <p>Photos and meaurements are for reference only.</p>
             </div>
           </div>
         </div>

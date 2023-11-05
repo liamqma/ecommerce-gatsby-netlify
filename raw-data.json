@@ -2,7 +2,7 @@
   {
     "id": "prod_OtsvD8ZfIUJ6wU",
     "url": "pure-love",
-    "description": "Pure Love, unblemished white – the epitome of innocence – is captured in our snowy white arrangement.",
+    "description": "Pure Love, unblemished white – the epitome of innocence – is captured in our snowy white arrangement. ",
     "images": [
       "/static/pure-love/1.jpg",
       "/static/pure-love/2.jpg",
@@ -17,12 +17,13 @@
       { "id": "price_1O659EBx9e7RzSyHaKWhPIrZ", "nickname": "small", "unit_amount": 43.95 },
       { "id": "price_1O659EBx9e7RzSyHX3EPwpkj", "nickname": "medium", "unit_amount": 63.95 },
       { "id": "price_1O659EBx9e7RzSyHM8U7eaQ6", "nickname": "large", "unit_amount": 108.95 }
-    ]
+    ],
+    "metadata": { "Large": "17*32cm", "Media": "14*25cm", "Small": "10*20cm" }
   },
   {
     "id": "prod_OtsvgOT4XlpFhK",
     "url": "amethyst-dream",
-    "description": "At the heart of Amethyst Dream lies a soft purple, with the delicate scent of lavender subtly wafting through the air. Close your eyes and immerse yourself in a soothing, fragrant embrace.",
+    "description": "At the heart of Amethyst Dream lies a soft purple, with the delicate scent of lavender subtly wafting through the air. Close your eyes and immerse yourself in a soothing, fragrant embrace. ",
     "images": [
       "/static/amethyst-dream/1.jpg",
       "/static/amethyst-dream/2.jpg",
@@ -37,12 +38,13 @@
       { "id": "price_1O659ABx9e7RzSyHxSTKzE9c", "nickname": "small", "unit_amount": 43.95 },
       { "id": "price_1O659ABx9e7RzSyHMPRJPpbA", "nickname": "medium", "unit_amount": 83.95 },
       { "id": "price_1O659ABx9e7RzSyHMLdCn4ZM", "nickname": "large", "unit_amount": 143.95 }
-    ]
+    ],
+    "metadata": { "Large": "25*38cm", "Medium": "15*28cm", "Small": "10*20cm" }
   },
   {
     "id": "prod_Otsu0nXgcOkjU4",
     "url": "wilds-of-nature",
-    "description": "Wilds of Nature boasts a gentle palette of earthy hues, seamlessly complementing a variety of interiors while instilling a sense of tranquility and delight.",
+    "description": "Wilds of Nature boasts a gentle palette of earthy hues, seamlessly complementing a variety of interiors while instilling a sense of tranquility and delight. ",
     "images": [
       "/static/wilds-of-nature/1.jpg",
       "/static/wilds-of-nature/2.jpg",
@@ -57,12 +59,13 @@
       { "id": "price_1O6598Bx9e7RzSyHeZrmMqAV", "nickname": "small", "unit_amount": 43.95 },
       { "id": "price_1O6598Bx9e7RzSyHCz9u9OfZ", "nickname": "medium", "unit_amount": 83.95 },
       { "id": "price_1O6598Bx9e7RzSyH5vJEfSGb", "nickname": "large", "unit_amount": 143.95 }
-    ]
+    ],
+    "metadata": { "Large": "25*38cm", "Media": "15*28cm", "Small": "10*20cm" }
   },
   {
     "id": "prod_OtsuetA4axuBU5",
     "url": "fairy-floss",
-    "description": "Fairy Floss is adorned with feathery blooms, its charming pink tones conveying an unmistakable sweetness.",
+    "description": "Fairy Floss is adorned with feathery blooms, its charming pink tones conveying an unmistakable sweetness. ",
     "images": [
       "/static/fairy-floss/1.jpg",
       "/static/fairy-floss/2.jpg",
@@ -77,12 +80,13 @@
       { "id": "price_1O6596Bx9e7RzSyHrEsLSaHJ", "nickname": "small", "unit_amount": 43.95 },
       { "id": "price_1O6596Bx9e7RzSyHamA04Arg", "nickname": "medium", "unit_amount": 83.95 },
       { "id": "price_1O6596Bx9e7RzSyHHVvZg4yu", "nickname": "large", "unit_amount": 143.95 }
-    ]
+    ],
+    "metadata": { "Large": "20*35cm", "Media": "15*25cm", "Small": "10*20cm" }
   },
   {
     "id": "prod_OtsuzQgwUW63og",
     "url": "candy-crush",
-    "description": "Meticulously selected and artfully arranged, our handmade garden frames represent the beauty of nature. At times, particular flowers or foliage may be temporarily unavailable. We then will  introduce alternative natural wonders in their stead.",
+    "description": "Meticulously selected and artfully arranged, our handmade garden frames represent the beauty of nature. ",
     "images": [
       "/static/candy-crush/1.jpg",
       "/static/candy-crush/2.jpg",
@@ -92,12 +96,13 @@
       "/static/candy-crush/6.jpg"
     ],
     "name": "Candy Crush",
-    "prices": [{ "id": "price_1O6594Bx9e7RzSyHaGNnIYCt", "nickname": null, "unit_amount": 119.95 }]
+    "prices": [{ "id": "price_1O6594Bx9e7RzSyHaGNnIYCt", "nickname": null, "unit_amount": 119.95 }],
+    "metadata": { "Size": "6*18.8*31.8cm" }
   },
   {
     "id": "prod_OtsuWFdtKN2GFM",
     "url": "a-field-trip",
-    "description": "Meticulously selected and artfully arranged, our handmade garden frames represent the beauty of nature. At times, particular flowers or foliage may be temporarily unavailable. We then will  introduce alternative natural wonders in their stead.",
+    "description": "Meticulously selected and artfully arranged, our handmade garden frames represent the beauty of nature. ",
     "images": [
       "/static/a-field-trip/1.jpg",
       "/static/a-field-trip/2.jpg",
@@ -107,12 +112,13 @@
       "/static/a-field-trip/6.jpg"
     ],
     "name": "A Field Trip",
-    "prices": [{ "id": "price_1O6591Bx9e7RzSyHm6voKIdZ", "nickname": null, "unit_amount": 119.95 }]
+    "prices": [{ "id": "price_1O6591Bx9e7RzSyHm6voKIdZ", "nickname": null, "unit_amount": 119.95 }],
+    "metadata": { "Size": "6*18.8*31.8cm" }
   },
   {
     "id": "prod_OtsumTZ2RFiZtk",
     "url": "sunset-glow",
-    "description": "Our hand-painted floral art frames are lovingly created with great care. We locally collect flowers and foliage year-round, and carefully select materials that best complement the season, ensuring each frame possesses its own special charm.",
+    "description": "We locally collect flowers and foliage year-round, and carefully select materials that best complement the season, ensuring each frame possesses its own special charm. ",
     "images": [
       "/static/sunset-glow/1.jpg",
       "/static/sunset-glow/2.jpg",
@@ -120,12 +126,13 @@
       "/static/sunset-glow/4.jpg"
     ],
     "name": "Sunset glow",
-    "prices": [{ "id": "price_1O658sBx9e7RzSyHvVZ1DNna", "nickname": null, "unit_amount": 59.95 }]
+    "prices": [{ "id": "price_1O658sBx9e7RzSyHvVZ1DNna", "nickname": null, "unit_amount": 64.95 }],
+    "metadata": { "Size": "3*27.3*27.3cm" }
   },
   {
     "id": "prod_Otsu669loTaN7E",
     "url": "smile-of-the-earth",
-    "description": "Our hand-painted floral art frames are lovingly created with great care. We locally collect flowers and foliage year-round, and carefully select materials that best complement the season, ensuring each frame possesses its own special charm.",
+    "description": "We locally collect flowers and foliage year-round, and carefully select materials that best complement the season, ensuring each frame possesses its own special charm. ",
     "images": [
       "/static/smile-of-the-earth/1.jpg",
       "/static/smile-of-the-earth/2.jpg",
@@ -133,6 +140,7 @@
       "/static/smile-of-the-earth/4.jpg"
     ],
     "name": "Smile of the Earth",
-    "prices": [{ "id": "price_1O658aBx9e7RzSyHY74H4Elz", "nickname": null, "unit_amount": 59.95 }]
+    "prices": [{ "id": "price_1O8zKUBx9e7RzSyHXsZM8XSX", "nickname": null, "unit_amount": 64.95 }],
+    "metadata": { "Size": "3*27.3*27.3cm" }
   }
 ]

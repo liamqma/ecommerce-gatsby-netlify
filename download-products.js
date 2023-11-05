@@ -43,6 +43,7 @@ async function main() {
           unit_amount: price.unit_amount / 100,
         }))
         .sort((a, b) => a.unit_amount - b.unit_amount),
+      metadata: product.metadata,
     });
   });
 

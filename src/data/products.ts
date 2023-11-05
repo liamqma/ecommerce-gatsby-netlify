@@ -13,8 +13,10 @@ export type Product = {
   images: [string, ...string[]];
   name: string;
   prices: [Price, ...Price[]];
+  metadata?: { [key: string]: string };
 };
 
+// @ts-expect-error
 const p = rawP as Product[];
 
 export function findPrice(priceId: string): { product?: Product; price?: Price } {
