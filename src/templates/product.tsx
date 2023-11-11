@@ -378,5 +378,10 @@ function ProductTemplate({ pageContext }: { pageContext: { product: Product } })
 export default ProductTemplate;
 
 export function Head({ pageContext }: { pageContext: { product: Product } }) {
-  return <title>{`Buy ${pageContext.product.name} | ${meta.title}`}</title>;
+  return (
+    <>
+      <title>{`Buy ${pageContext.product.name} | ${meta.title}`}</title>
+      <meta name="description" content={pageContext.product.description} />
+    </>
+  );
 }

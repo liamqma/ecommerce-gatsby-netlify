@@ -26,5 +26,13 @@ function CollectionTemplate({
 export default CollectionTemplate;
 
 export function Head({ pageContext }: { pageContext: { name: string } }) {
-  return <title>{`${pageContext.name} | ${meta.title}`}</title>;
+  return (
+    <>
+      <title>{`${pageContext.name} | ${meta.title}`}</title>
+      <meta
+        name="description"
+        content={`Experience nature's enduring beauty with ${meta.title}. Our consciously sourced, naturally dried, and uniquely crafted flowers bring a breath of freshness to your home. Committed to preserving nature with sustainable sourcing and chemical-free methods across Australia.`}
+      />
+    </>
+  );
 }

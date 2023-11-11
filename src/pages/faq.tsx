@@ -76,4 +76,4 @@ const ShippingReturnsPage = () => {
 
 export default ShippingReturnsPage;
 
-export const Head = () => <title>Shipping and Returns</title>;
+export const Head = () => <title>Frequently Asked Questions</title>;

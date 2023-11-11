@@ -21,5 +21,10 @@ function IndexPage() {
 export default IndexPage;
 
 export function Head() {
-  return <title>{`${meta.title} | Dried Flowers Australia`}</title>;
+  return (
+    <>
+      <title>{`${meta.title} | Naturally Dried Flowers | Australia`}</title>
+      <meta name="description" content={meta.description} />
+    </>
+  );
 }
