@@ -2,7 +2,12 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  siteMetadata: {
+    // If you didn't use the resolveSiteUrl option this needs to be set
+    siteUrl: 'https://mysaandco.com.au',
+  },
   plugins: [
+    'gatsby-plugin-sitemap',
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
